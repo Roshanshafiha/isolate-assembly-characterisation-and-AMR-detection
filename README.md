@@ -141,9 +141,9 @@ Each process creates subdirectories for each sample for traceability and clarity
 
 ## 🧪 Example Dataset
 
-A small test dataset is available for download:
+Example dataset is available for download:
 
-[Download Sample Input Dataset](sandbox:/mnt/data/metagenome-amr-pipeline-test-inputs.zip)
+[Download Sample Input Dataset](https://github.com/borenstein-lab/microbiome-metabolome-curated-data/wiki/Data-overview#datasets-included)
 
 ---
 
