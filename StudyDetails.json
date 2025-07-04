@@ -1,0 +1,7 @@
+{
+    "study_id": "TEST001",
+    "description": "Minimal test case for the AMR detection pipeline",
+    "date": "2025-07-02",
+    "organism": "metagenome",
+    "error-message": ""
+}
