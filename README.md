@@ -64,8 +64,8 @@ Make sure the following are installed:
 ### Step 2: Clone and Prepare Input
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/metagenome-amr-pipeline.git
-cd metagenome-amr-pipeline
+git clone https://github.com/YOUR_USERNAME/isolate-assembly-characterisation-and-AMR-detection.git
+cd isolate-assembly-characterisation-and-AMR-detection
 ```
 
 Ensure you have:
@@ -77,7 +77,7 @@ Ensure you have:
 ### Step 3: Run the Pipeline
 
 ```bash
-nextflow run main.nf -profile standard
+nextflow run main.nf 
 ```
 
 You can also specify alternative input/output directories:
@@ -95,6 +95,7 @@ nextflow run main.nf --inputDir /path/to/data --outputDir /path/to/results
 ```csv
 sample_id,description
 Sample1,Test sample for AMR detection
+Sample2,Test sample for AMR detection
 ```
 
 ### `StudyDetails.json`
@@ -154,4 +155,4 @@ This pipeline uses publicly available tools and is released under the MIT licens
 
 ## 📬 Contact
 
-For questions, feedback, or contributions, feel free to open an issue or contact the maintainer.
+For questions, feedback, or contributions, feel free to open an issue .
